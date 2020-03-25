@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: #FF4E50;
+  background: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50); 
+  background: linear-gradient(to bottom, #F9D423, #FF4E50);
+  overflow: hidden;
+}
+
+img {
+  margin-top: 2%;
+  height: 20%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+td.pixel {
+  width: 10px;
+  height: 10px;
+  border: 0;
+}
